@@ -4,3 +4,4 @@ for i in range(1, a+1):
     fact *= i
 
 print(fact)
+#code ends here
