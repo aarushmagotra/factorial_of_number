@@ -3,11 +3,9 @@ def main():
     fact = 1
     for i in range(1, a+1):
         fact *= i
-
     print(fact)
     print()
     fchoice()
-
 
 def fchoice():
     choice =  input('Would you like to find the factorial of another number (y/n): ')
@@ -23,7 +21,6 @@ def fchoice():
         print('Try again')
         print()
         fchoice()
-
 
 if __name__ == '__main__':
     main()
